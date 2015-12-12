@@ -42,6 +42,7 @@ with open("simple.qif", "w") as foh:
 ```
 
 Here is an example csv input
+
 ```
 Date,Memo,Amount
 12/5/2015,Ed Jones Check 5231,10
@@ -52,6 +53,7 @@ Date,Memo,Amount
 
 
 And here is the QIF output:
+
 ```
 !Account
 NChecking Account
