@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response><Say voice="alice">Hello friends of Lizzie. This phone number is being parked for her while she spends the year in Denmark.</Say>
+<Say voice="alice" language="da-DK">Hej venner af Lizzie. Dette telefonnummer bliver parkeret for hende, mens hun tilbringer året i Danmark.</Say>
+</Response>
