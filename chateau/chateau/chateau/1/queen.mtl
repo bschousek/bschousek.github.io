@@ -1,9 +1,0 @@
-# 3D model queen.obj
-
-newmtl Material
-illum 2
-Ka 1.0 1.0 1.0
-Kd 0.64 0.64 0.64
-Ks 0.5 0.5 0.5
-Ns 96.07843
-Ni 1.0
