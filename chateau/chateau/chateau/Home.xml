@@ -1,0 +1,336 @@
+<?xml version='1.0'?>
+<home version='6000' exportFlags='17' name='chateau.sh3d' camera='topCamera' selectedLevel='level0' wallHeight='243.84'>
+  <environment groundColor='00A8A8A8' skyColor='00CCE4FC' lightColor='00D0D0D0'/>
+  <observerCamera attribute='observerCamera' lens='PINHOLE' x='301.91498' y='157.4954' z='170.0' yaw='7.9527893' pitch='0.6413496' fieldOfView='1.0995575' time='1547294400000' fixedSize='true'/>
+  <camera attribute='topCamera' lens='PINHOLE' x='592.6128' y='1476.7367' z='2069.7715' yaw='-66.17822' pitch='1.03' fieldOfView='1.0995575' time='1547294400000'/>
+  <level id='level0' name='Level 0' elevation='0.0' floorThickness='12.0' height='243.84' elevationIndex='0'/>
+  <level id='level1' name='Level 1' elevation='255.84' floorThickness='12.0' height='243.84' elevationIndex='0' visible='false'/>
+  <pieceOfFurniture level='level0' name='Queen' model='1/queen.obj' x='148.29541' y='198.12' width='152.4' depth='203.2' height='63.5' modelSize='695'>
+    <texture name='Classic red squares' creator='Scopia' catalogId='eTeksScopia#classic-red-squares-fabric-for-furniture' width='50.0' height='50.0' image='2'/>
+  </pieceOfFurniture>
+  <doorOrWindow level='level0' catalogId='eTeks#door' name='Door' creator='eTeks' model='4' x='335.22665' y='64.75871' angle='1.5707964' width='76.2' depth='14.839428' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level0' name='Pellet' model='6/pellet.obj' x='41.909943' y='400.48837' angle='4.712389' width='60.96' depth='68.58' height='88.9' color='FF040022' modelSize='7264'/>
+  <furnitureGroup level='level0' name='Group -1-' x='488.78546' y='531.0961' width='137.16003' depth='122.04501' height='90.17'>
+    <pieceOfFurniture level='level0' name='Table' model='8/table.obj' x='488.78546' y='529.8045' angle='4.712389' width='91.44' depth='137.16' height='76.2' modelSize='754'>
+      <texture name='Beech' creator='Emmanuel Puybaret' width='40.0' height='80.0' image='9'/>
+    </pieceOfFurniture>
+    <pieceOfFurniture level='level0' catalogId='eTeks#chair' name='Chair' creator='eTeks' model='11' x='456.17413' y='571.1413' angle='3.141592' width='40.005' depth='41.91' height='90.17' modelMirrored='true' modelSize='3025'/>
+    <pieceOfFurniture level='level0' catalogId='eTeks#chair' name='Chair' creator='eTeks' model='11' x='517.8878' y='571.16364' angle='3.141592' width='40.005' depth='41.91' height='90.17' modelMirrored='true' modelSize='3025'/>
+    <pieceOfFurniture level='level0' catalogId='eTeks#chair' name='Chair' creator='eTeks' model='11' x='522.87085' y='491.02863' angle='1.1920929E-7' width='40.005' depth='41.91' height='90.17' modelSize='3025'/>
+    <pieceOfFurniture level='level0' catalogId='eTeks#chair' name='Chair' creator='eTeks' model='11' x='461.15726' y='491.0511' angle='1.1920929E-7' width='40.005' depth='41.91' height='90.17' modelSize='3025'/>
+  </furnitureGroup>
+  <doorOrWindow level='level0' catalogId='eTeks#roundWindow' name='Round window' creator='eTeks' model='13' x='-8.179617E-5' y='596.7909' elevation='129.8575' angle='1.5707964' width='91.1225' depth='15.240749' height='91.1225' modelSize='16819' movable='false' cutOutShape='M0,0.5 a0.5,0.5 0 1,0 1,0 a0.5,0.5 0 1,0 -1,0 z' wallCutOutOnBothSides='true'/>
+  <furnitureGroup level='level0' name='Group -3-' x='470.1509' y='80.707695' angle='1.5664908' width='137.16025' depth='68.58029' height='85.09'>
+    <pieceOfFurniture level='level0' catalogId='eTeks#clothesWasher' name='Clothes washer' creator='eTeks' model='15' x='470.2986' y='114.99742' angle='1.5664887' width='68.58' depth='68.58' depthInPlan='68.58001' height='85.09' modelSize='24815'/>
+    <pieceOfFurniture level='level0' catalogId='OlaKristianHoff#washer_dryer' name='Washer dryer' creator='Ola-Kristian Hoff' model='17/washer_dryer.obj' x='470.0032' y='46.41797' angle='1.5664887' width='68.58' depth='68.58' height='85.09' modelSize='81910'/>
+  </furnitureGroup>
+  <doorOrWindow level='level0' catalogId='eTeks#door' name='Door' creator='eTeks' model='4' x='588.828' y='164.0572' angle='3.1415927' width='81.28' depth='14.839428' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level0' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='19/fixed_window_2x2.obj' x='599.2712' y='-0.2458168' elevation='142.23999' angle='3.1415927' width='60.0075' depth='15.732362' height='60.0075' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <furnitureGroup level='level0' name='Group -2-' x='561.56354' y='426.56284' width='289.28836' depth='238.76025' height='185.42'>
+    <pieceOfFurniture level='level0' catalogId='Pencilart#stove1' name='Stove' creator='Pencilart' model='21/stove1.obj' x='674.4577' y='444.5113' angle='1.5707963' width='76.2' depth='63.5' height='104.14' modelSize='245209'/>
+    <pieceOfFurniture level='level0' catalogId='Pastierovic#cabinetWithBasin' name='Gray cabinet with basin' creator='Robert Pastierovic' model='23' x='565.68024' y='338.93268' width='86.36' depth='63.5' height='99.06' modelSize='21378'/>
+    <pieceOfFurniture level='level0' catalogId='Pastierovic#cabinet' name='Gray cabinet' creator='Robert Pastierovic' model='25' x='674.45746' y='352.90314' angle='1.5707967' width='91.44' depth='63.5' height='86.042496' modelSize='6487'/>
+    <pieceOfFurniture level='level0' catalogId='eTeks#fridgeFreezer' name='Fridge &amp; Freezer' creator='eTeks' model='27' x='455.01935' y='345.28302' width='76.2' depth='76.2' height='185.42' modelSize='26363'/>
+    <pieceOfFurniture level='level0' catalogId='Pastierovic#drawers' name='Gray drawers' creator='Robert Pastierovic' model='29' x='508.3595' y='337.6628' width='30.48' depth='60.96' height='86.042496' modelSize='7652'/>
+    <pieceOfFurniture level='level0' catalogId='Pastierovic#drawers' name='Gray drawers' creator='Robert Pastierovic' model='29' x='623.7094' y='338.93317' width='45.72' depth='63.5' height='86.042496' modelSize='7652'/>
+    <pieceOfFurniture level='level0' catalogId='Pastierovic#drawers' name='Gray drawers' creator='Robert Pastierovic' model='29' x='674.4577' y='515.4629' angle='1.5707967' width='60.96' depth='63.5' height='86.042496' modelSize='7652'/>
+  </furnitureGroup>
+  <doorOrWindow level='level0' catalogId='OlaKristianHoff#fixed_window_2x2' name='Fixed small window' creator='Ola-Kristian Hoff' model='19/fixed_window_2x2.obj' x='382.46494' y='0.24577607' elevation='142.23999' angle='8.7422784E-8' width='60.0075' depth='15.732362' height='60.0075' modelSize='9276' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level0' catalogId='OlaKristianHoff#sliderPocketDoor' name='Slider pocket door' creator='Ola-Kristian Hoff' model='31/sliderPocketDoor.obj' x='362.64185' y='304.8' angle='3.1415927' width='91.44' depth='10.160749' height='212.4075' modelSize='5666' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level0' catalogId='eTeks#door' name='Door' creator='eTeks' model='4' x='717.6631' y='246.9843' angle='1.5570208' width='76.2' depth='29.678106' height='208.28' modelMirrored='true' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <furnitureGroup level='level0' name='Group -5-' x='221.51677' y='595.48456' angle='3.1415927' width='156.28706' depth='148.85217' height='86.994995'>
+    <pieceOfFurniture level='level0' catalogId='eTeks#armchair' name='Armchair' creator='eTeks' model='33' x='264.10028' y='634.07166' angle='3.1415927' width='71.119995' depth='71.119995' height='86.994995' modelMirrored='true' modelSize='104093'/>
+    <pieceOfFurniture level='level0' catalogId='eTeks#armchair' name='Armchair' creator='eTeks' model='33' x='178.93323' y='634.35065' angle='3.1415927' width='71.119995' depth='71.119995' height='86.994995' modelMirrored='true' modelSize='104093'/>
+    <pieceOfFurniture level='level0' catalogId='eTeks#coffeeTable' name='Coffee table' creator='eTeks' model='35' x='234.06552' y='551.5385' angle='3.1415923' width='60.96' depth='60.96' height='40.005' modelSize='9814'/>
+  </furnitureGroup>
+  <pieceOfFurniture level='level0' catalogId='eTeks#texturableBox' name='Box' creator='eTeks' model='37/texturableBox.obj' x='474.7399' y='19.049978' elevation='152.4' angle='8.7422784E-8' width='35.559998' depth='22.86' height='58.42' modelSize='1661'>
+    <texture name='Gray carpeting' creator='Scopia' catalogId='eTeksScopia#floor-carpeting-grey' width='150.0' height='150.0' image='38'/>
+  </pieceOfFurniture>
+  <pieceOfFurniture level='level1' name='Twin' model='40/twin.obj' x='621.02997' y='237.14076' angle='1.5707964' width='96.52' depth='190.5' height='63.5' modelSize='690'>
+    <texture name='Classic red squares' creator='Scopia' catalogId='eTeksScopia#classic-red-squares-fabric-for-furniture' width='50.0' height='50.0' image='2'/>
+  </pieceOfFurniture>
+  <pieceOfFurniture level='level1' name='Twin' model='40/twin.obj' x='621.02997' y='494.80164' angle='1.5707964' width='96.52' depth='190.5' height='63.5' modelSize='690'>
+    <texture name='Classic red squares' creator='Scopia' catalogId='eTeksScopia#classic-red-squares-fabric-for-furniture' width='50.0' height='50.0' image='2'/>
+  </pieceOfFurniture>
+  <doorOrWindow level='level1' catalogId='eTeks#door' name='Door' creator='eTeks' model='4' x='424.12668' y='369.3547' angle='1.5707964' width='91.44' depth='14.839428' height='208.28' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture level='level1' catalogId='Pencilart#throwPillow' name='Pillow' creator='Pencilart' model='42/throwPillow.obj' x='358.3651' y='497.42322' angle='6.021386' pitch='1.5707964' width='104.14' depth='51.123272' depthInPlan='110.10861' height='95.61945' heightInPlan='76.510254' modelRotation='1 0 0 0 0.9396926 0.34202018 0 -0.34202018 0.9396926' modelSize='206189'/>
+  <pieceOfFurniture level='level1' catalogId='Pencilart#throwPillow' name='Pillow' creator='Pencilart' model='42/throwPillow.obj' x='201.21669' y='496.226' angle='0.52359885' pitch='1.5707964' width='104.14' depth='51.1175' depthInPlan='110.04877' height='95.5675' heightInPlan='76.50161' modelRotation='1 0 0 0 0.9396926 0.34202018 0 -0.34202018 0.9396926' modelSize='206189'/>
+  <light level='level1' catalogId='GdB#lampeHalogene' name='Floor lamp' creator='GdB' model='44' x='285.31183' y='519.0703' angle='3.1415927' width='31.432499' depth='68.8975' height='180.02249' modelSize='14224'/>
+  <pieceOfFurniture level='level0' catalogId='eTeks#sofa' name='Sofa' creator='eTeks' model='46' x='239.57776' y='360.07626' width='147.31999' depth='86.994995' height='86.994995' modelSize='148511'/>
+  <pieceOfFurniture level='level0' catalogId='eTeks#staircase' name='Staircase' creator='eTeks' model='48' x='43.814934' y='518.4781' width='72.39' depth='222.25' height='361.94998' modelSize='13928' movable='false' staircaseCutOutShape='M0,0 v1 h1 v-1 z'/>
+  <pieceOfFurniture level='level0' catalogId='eTeks#toiletUnit' name='Toilet unit' creator='eTeks' model='50' x='537.5802' y='47.624985' angle='8.7422784E-8' width='40.005' depth='80.01' height='62.23' modelSize='125874' movable='false'/>
+  <pieceOfFurniture level='level0' catalogId='eTeks#fittedBath' name='Fitted bath' creator='eTeks' model='52' x='678.18' y='83.81995' angle='1.5707964' width='152.4' depth='76.2' height='71.119995' modelRotation='0 0 -1 0 1 0 1 0 0' modelSize='87663' movable='false'/>
+  <pieceOfFurniture level='level0' catalogId='eTeks#washbasin' name='Washbasin' creator='eTeks' model='54' x='598.4245' y='31.11499' angle='8.7422784E-8' width='55.879997' depth='46.989998' height='96.52' modelSize='239991' movable='false'/>
+  <furnitureGroup level='level0' name='Group -5-' x='41.177162' y='30.81731' width='60.960003' depth='46.39462' height='83.82'>
+    <pieceOfFurniture level='level0' catalogId='eTeks#texturableBox' name='Box' creator='eTeks' model='37/texturableBox.obj' x='40.72087' y='26.670002' elevation='60.96' width='55.879997' depth='38.1' height='22.86' color='FF055DFF' modelSize='1661'/>
+    <pieceOfFurniture level='level0' catalogId='Infernal-quack#tableBasseBois' name='Wooden coffee table' creator='Infernal-quack' model='56' x='41.177162' y='31.154621' width='60.96' depth='45.72' height='60.96' modelSize='10157'/>
+  </furnitureGroup>
+  <furnitureGroup level='level0' name='Group -6-' x='311.14993' y='160.66481' angle='1.5707964' width='60.95999' depth='45.72003' height='83.82'>
+    <pieceOfFurniture level='level0' catalogId='eTeks#texturableBox' name='Box' creator='eTeks' model='37/texturableBox.obj' x='310.098' y='162.14449' elevation='60.96' angle='1.5707964' width='55.879997' depth='38.1' height='22.86' color='FF055DFF' modelSize='1661'/>
+    <pieceOfFurniture level='level0' catalogId='Infernal-quack#tableBasseBois' name='Wooden coffee table' creator='Infernal-quack' model='56' x='311.14993' y='160.66483' angle='1.5707964' width='60.96' depth='45.72' height='60.96' modelSize='10157'/>
+  </furnitureGroup>
+  <pieceOfFurniture level='level0' catalogId='eTeks#bedsideTable' name='Bedside table' creator='eTeks' model='58' x='263.36523' y='280.67' angle='3.1415927' width='38.1' depth='38.1' height='49.53' modelSize='2243'/>
+  <pieceOfFurniture level='level0' catalogId='eTeks#bedsideTable' name='Bedside table' creator='eTeks' model='58' x='38.877747' y='280.66998' width='38.1' depth='38.1' height='49.53' modelSize='2243'/>
+  <doorOrWindow level='level0' catalogId='PencilArt#fancyFrontDoor' name='Fancy front door' creator='Pencilart' model='60/fancyFrontDoor.obj' x='479.3644' y='720.08984' angle='3.1415927' width='91.44' depth='22.860748' height='200.025' modelSize='180388' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level0' catalogId='OlaKristianHoff#window_double_2x3_frame_sill' name='Double small window 2x3 panes with sill' creator='Ola-Kristian Hoff' model='62/window_double_2x3_frame_sill.obj' x='644.43616' y='720.70514' elevation='45.72' angle='1.7484555E-7' width='91.44' depth='24.581394' height='152.4' modelSize='25499' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level0' catalogId='Artist373#fivePanesWindow' name='Five panes window' creator='Pencilart' model='64' x='203.49835' y='723.43365' elevation='45.72' angle='3.1415927' width='213.0425' depth='36.079117' height='173.98999' color='FFFFF8DA' modelSize='101061' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level0' catalogId='OlaKristianHoff#window_double_2x3_frame_sill' name='Double small window 2x3 panes with sill' creator='Ola-Kristian Hoff' model='62/window_double_2x3_frame_sill.obj' x='714.4896' y='621.8655' elevation='45.72' angle='4.7261643' width='91.44' depth='24.581394' height='152.4' modelSize='25499' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level0' catalogId='OlaKristianHoff#window_double_3x3' name='Double small window 3x3 panes' creator='Ola-Kristian Hoff' model='66/window_double_3x3.obj' x='720.5103' y='434.67563' elevation='114.3' angle='4.7261643' width='134.9375' depth='15.732362' height='89.8525' modelSize='30434' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level0' catalogId='OlaKristianHoff#window_double_2x3_frame_sill' name='Double small window 2x3 panes with sill' creator='Ola-Kristian Hoff' model='62/window_double_2x3_frame_sill.obj' x='148.5246' y='3.1957235' elevation='45.72' angle='3.1415927' width='91.44' depth='24.581394' height='152.4' modelSize='25499' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level0' catalogId='OlaKristianHoff#window_double_2x3_frame_sill' name='Double small window 2x3 panes with sill' creator='Ola-Kristian Hoff' model='62/window_double_2x3_frame_sill.obj' x='3.1956625' y='183.97389' elevation='45.72' angle='1.5707964' width='91.44' depth='24.581394' height='152.4' modelSize='25499' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='OlaKristianHoff#window_double_2x3_frame_sill' name='Double small window 2x3 panes with sill' creator='Ola-Kristian Hoff' model='62/window_double_2x3_frame_sill.obj' x='727.0957' y='375.0682' elevation='60.96' angle='1.5707964' width='122.8725' depth='24.581394' height='109.854996' modelSize='25499' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow level='level1' catalogId='OlaKristianHoff#window_double_2x3_frame_sill' name='Double small window 2x3 panes with sill' creator='Ola-Kristian Hoff' model='62/window_double_2x3_frame_sill.obj' x='-3.195739' y='355.97153' elevation='60.96' angle='4.712389' width='122.8725' depth='24.581394' height='109.854996' modelSize='25499' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <wall id='wall0' level='level0' wallAtEnd='wall36' xStart='2.7781982' yStart='304.8' xEnd='305.49457' yEnd='304.8' height='243.84' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall1' level='level0' wallAtStart='wall13' xStart='-6.1035156E-5' yStart='0.0' xEnd='304.79996' yEnd='0.0' height='243.84' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall2' level='level0' wallAtStart='wall4' wallAtEnd='wall10' xStart='-9.1552734E-5' yStart='723.89996' xEnd='-6.1035156E-5' yEnd='335.27997' height='243.84' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall3' level='level0' wallAtStart='wall19' wallAtEnd='wall4' xStart='716.27997' yStart='723.89996' xEnd='304.79993' yEnd='723.89996' height='243.84' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall4' level='level0' wallAtStart='wall3' wallAtEnd='wall2' xStart='304.79993' yStart='723.89996' xEnd='-9.1552734E-5' yEnd='723.89996' height='243.84' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall5' level='level1' wallAtStart='wall26' wallAtEnd='wall30' xStart='0.0' yStart='0.0' xEnd='723.89996' yEnd='0.0' height='2.54' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall6' level='level1' wallAtStart='wall7' xStart='90.91055' yStart='400.5812' xEnd='4.401825' yEnd='400.5812' height='2.54' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall7' level='level1' wallAtStart='wall14' wallAtEnd='wall6' xStart='90.08239' yStart='577.3975' xEnd='90.91055' yEnd='400.5812' height='91.44' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall8' level='level1' wallAtStart='wall16' wallAtEnd='wall32' xStart='723.89996' yStart='723.89996' xEnd='109.349' yEnd='723.89996' height='2.54' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017' rightSideColor='FF808080'/>
+  <wall id='wall9' level='level0' wallAtStart='wall20' wallAtEnd='wall18' xStart='723.89996' yStart='0.0' xEnd='723.89996' yEnd='170.78508' height='243.84' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall10' level='level0' wallAtStart='wall2' wallAtEnd='wall12' xStart='-6.1035156E-5' yStart='335.27997' xEnd='-6.1035156E-5' yEnd='304.8' height='243.84' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall11' level='level1' wallAtStart='wall27' wallAtEnd='wall33' xStart='-1.598788E-5' yStart='365.76004' xEnd='-7.6293945E-6' yEnd='723.89996' height='365.76' heightAtEnd='0.0' thickness='15.24' pattern='hatchUp' rightSideColor='FF8B0017'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall12' level='level0' wallAtStart='wall10' wallAtEnd='wall13' xStart='-6.1035156E-5' yStart='304.8' xEnd='-6.1035156E-5' yEnd='243.84' height='243.84' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall13' level='level0' wallAtStart='wall12' wallAtEnd='wall1' xStart='-6.1035156E-5' yStart='243.84' xEnd='-6.1035156E-5' yEnd='0.0' height='243.84' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall14' level='level1' wallAtEnd='wall7' xStart='90.08238' yStart='723.89996' xEnd='90.08239' yEnd='577.3975' height='7.6200547' heightAtEnd='152.4' thickness='7.62' pattern='hatchUp' rightSideColor='FF808080'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall15' level='level1' wallAtStart='wall31' wallAtEnd='wall16' xStart='723.89996' yStart='365.76004' xEnd='723.89996' yEnd='579.12' height='365.76' heightAtEnd='147.86043' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall16' level='level1' wallAtStart='wall15' wallAtEnd='wall8' xStart='723.89996' yStart='579.12' xEnd='723.89996' yEnd='723.89996' height='147.86043' heightAtEnd='0.0' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017' rightSideColor='FF808080'/>
+  <wall id='wall17' level='level0' xStart='724.59454' yStart='304.8' xEnd='305.49457' yEnd='304.8' height='243.84' thickness='10.16' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall18' level='level0' wallAtStart='wall9' wallAtEnd='wall19' xStart='723.89996' yStart='170.78508' xEnd='722.8935' yEnd='243.83984' height='243.84' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall19' level='level0' wallAtStart='wall18' wallAtEnd='wall3' xStart='722.8935' yStart='243.83984' xEnd='716.27997' yEnd='723.89996' height='243.84' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall20' level='level0' wallAtEnd='wall9' xStart='304.79996' yStart='-3.663889E-5' xEnd='723.89996' yEnd='0.0' height='243.84' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall21' level='level1' wallAtStart='wall23' xStart='426.71997' yStart='457.19998' xEnd='426.71997' yEnd='579.12' height='274.32' heightAtEnd='152.4' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall22' level='level1' wallAtEnd='wall23' xStart='426.71997' yStart='152.4' xEnd='426.71997' yEnd='274.32' height='152.4' heightAtEnd='274.32' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall23' level='level1' wallAtStart='wall22' wallAtEnd='wall21' xStart='426.71997' yStart='274.32' xEnd='426.71997' yEnd='457.19998' height='274.32' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall24' level='level1' wallAtEnd='wall25' xStart='0.0' yStart='152.4' xEnd='426.71997' yEnd='152.4' height='152.4' thickness='7.62' pattern='hatchUp' leftSideColor='FF808080'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall25' level='level1' wallAtStart='wall24' xStart='426.71997' yStart='152.4' xEnd='723.89996' yEnd='152.4' height='152.4' thickness='7.62' pattern='hatchUp' leftSideColor='FF808080'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall26' level='level1' wallAtStart='wall5' wallAtEnd='wall27' xStart='0.0' yStart='0.0' xEnd='0.0' yEnd='152.4' height='0.0' heightAtEnd='152.39998' thickness='15.24' pattern='hatchUp' rightSideColor='FF8B0017'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall27' level='level1' wallAtStart='wall26' wallAtEnd='wall11' xStart='0.0' yStart='152.4' xEnd='-1.598788E-5' yEnd='365.76004' height='152.39998' heightAtEnd='365.76' thickness='15.24' pattern='hatchUp' rightSideColor='FF8B0017'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall28' level='level1' wallAtEnd='wall29' xStart='90.08238' yStart='579.12' xEnd='426.71997' yEnd='579.12' height='152.4' thickness='7.62' pattern='hatchUp' rightSideColor='FF808080'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall29' level='level1' wallAtStart='wall28' xStart='426.71997' yStart='579.12' xEnd='716.27997' yEnd='579.12' height='152.4' thickness='7.62' pattern='hatchUp' rightSideColor='FF808080'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall30' level='level1' wallAtStart='wall5' wallAtEnd='wall31' xStart='723.89996' yStart='0.0' xEnd='723.89996' yEnd='152.4' height='0.0' heightAtEnd='152.39998' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017' rightSideColor='FF808080'/>
+  <wall id='wall31' level='level1' wallAtStart='wall30' wallAtEnd='wall15' xStart='723.89996' yStart='152.4' xEnd='723.89996' yEnd='365.76004' height='152.39998' heightAtEnd='365.76' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall32' level='level1' wallAtStart='wall8' wallAtEnd='wall33' xStart='109.349' yStart='723.89996' xEnd='90.08238' yEnd='723.89996' height='2.54' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017' rightSideColor='FF808080'/>
+  <wall id='wall33' level='level1' wallAtStart='wall32' wallAtEnd='wall11' xStart='90.08238' yStart='723.89996' xEnd='-7.6293945E-6' yEnd='723.89996' height='2.54' thickness='15.24' pattern='hatchUp' leftSideColor='FF8B0017'>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall34' level='level0' wallAtEnd='wall35' xStart='507.90808' yStart='0.9760742' xEnd='508.6256' yEnd='167.62596' height='243.84' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall35' level='level0' wallAtStart='wall34' xStart='508.6256' yStart='167.62596' xEnd='724.6175' yEnd='166.64989' height='243.84' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall36' level='level0' wallAtStart='wall0' wallAtEnd='wall37' xStart='305.49457' yStart='304.8' xEnd='305.49457' yEnd='197.73306' height='243.84' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall37' level='level0' wallAtStart='wall36' wallAtEnd='wall38' xStart='305.49457' yStart='197.73306' xEnd='337.81995' yEnd='197.73306' height='243.84' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall38' level='level0' wallAtStart='wall37' xStart='337.81995' yStart='197.73306' xEnd='337.81995' yEnd='0.0' height='243.84' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <wall id='wall39' level='level0' xStart='508.6256' yStart='167.62596' xEnd='419.72562' yEnd='167.62596' height='243.84' thickness='7.62' pattern='hatchUp'>
+    <texture attribute='leftSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+    <texture attribute='rightSideTexture' name='Pine' creator='Scopia' width='60.0' height='60.0' angle='1.5707964' scale='0.75' image='69'/>
+  </wall>
+  <room level='level1' floorColor='FF808080' ceilingVisible='false'>
+    <point x='718.83435' y='12.728871'/>
+    <point x='718.83435' y='153.69887'/>
+    <point x='10.174376' y='153.69887'/>
+    <point x='10.174382' y='12.728871'/>
+  </room>
+  <room level='level1' name='' floorColor='FF808080' ceilingVisible='false'>
+    <point x='716.27997' y='582.93'/>
+    <point x='716.27997' y='716.27997'/>
+    <point x='93.89238' y='716.27997'/>
+    <point x='93.89239' y='582.93'/>
+  </room>
+  <room level='level1' areaVisible='true' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Poplar' creator='Emmanuel Puybaret' catalogId='Puybaret#poplar' width='40.0' height='80.0' image='67'/>
+    <point x='430.52997' y='156.20999'/>
+    <point x='430.52997' y='274.32'/>
+    <point x='430.52997' y='323.03467'/>
+    <point x='426.69516' y='323.03467'/>
+    <point x='426.69516' y='415.67474'/>
+    <point x='430.52997' y='415.67474'/>
+    <point x='430.52997' y='457.19998'/>
+    <point x='430.52997' y='575.31'/>
+    <point x='716.27997' y='575.31'/>
+    <point x='716.27997' y='365.76004'/>
+    <point x='716.27997' y='156.20999'/>
+  </room>
+  <room level='level0' areaVisible='true' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Dark blue sponge wallpaint' creator='Scopia' width='100.0' height='100.0' image='68'/>
+    <point x='304.79996' y='7.619963'/>
+    <point x='304.79996' y='7.62'/>
+    <point x='7.619939' y='7.62'/>
+    <point x='7.619939' y='243.84'/>
+    <point x='7.619939' y='299.72'/>
+    <point x='301.68457' y='299.72'/>
+    <point x='301.68457' y='193.92307'/>
+    <point x='334.00995' y='193.92307'/>
+    <point x='334.00995' y='94.329315'/>
+    <point x='337.84512' y='94.329315'/>
+    <point x='337.84512' y='17.129349'/>
+    <point x='334.00995' y='17.129349'/>
+    <point x='334.00995' y='7.6199656'/>
+  </room>
+  <room level='level0' areaVisible='true' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Dark blue sponge wallpaint' creator='Scopia' width='100.0' height='100.0' image='68'/>
+    <point x='511.74673' y='7.6199813'/>
+    <point x='512.4192' y='163.80469'/>
+    <point x='547.70154' y='163.64426'/>
+    <point x='547.70154' y='167.47461'/>
+    <point x='629.95447' y='167.10178'/>
+    <point x='629.95447' y='163.27026'/>
+    <point x='716.27997' y='162.87775'/>
+    <point x='716.27997' y='7.6199994'/>
+  </room>
+  <room level='level0' areaVisible='true' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Dark blue sponge wallpaint' creator='Scopia' width='100.0' height='100.0' image='68'/>
+    <point x='341.62994' y='7.6199665'/>
+    <point x='341.62994' y='17.129301'/>
+    <point x='337.79514' y='17.129301'/>
+    <point x='337.79514' y='94.32936'/>
+    <point x='341.62994' y='94.32936'/>
+    <point x='341.62994' y='201.54306'/>
+    <point x='309.30457' y='201.54306'/>
+    <point x='309.30457' y='299.72'/>
+    <point x='316.47183' y='299.72'/>
+    <point x='316.47183' y='304.82498'/>
+    <point x='408.81186' y='304.82498'/>
+    <point x='408.81186' y='299.72'/>
+    <point x='714.5029' y='299.72'/>
+    <point x='715.17267' y='251.10556'/>
+    <point x='722.8141' y='251.21078'/>
+    <point x='723.86993' y='174.57861'/>
+    <point x='716.2284' y='174.47333'/>
+    <point x='716.27997' y='170.73047'/>
+    <point x='716.27997' y='170.4976'/>
+    <point x='629.9546' y='170.88771'/>
+    <point x='629.9546' y='167.0562'/>
+    <point x='547.7014' y='167.42903'/>
+    <point x='547.7014' y='171.2594'/>
+    <point x='504.83206' y='171.45312'/>
+    <point x='504.12665' y='7.619981'/>
+  </room>
+  <room level='level0' areaVisible='true' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Dark blue sponge wallpaint' creator='Scopia' width='100.0' height='100.0' image='68'/>
+    <point x='316.47183' y='304.775'/>
+    <point x='316.47183' y='309.87997'/>
+    <point x='7.619934' y='309.87997'/>
+    <point x='7.619934' y='335.27997'/>
+    <point x='7.6199036' y='716.27997'/>
+    <point x='304.79993' y='716.27997'/>
+    <point x='330.72314' y='716.28'/>
+    <point x='330.72314' y='723.9249'/>
+    <point x='443.21643' y='723.9249'/>
+    <point x='443.21643' y='716.2804'/>
+    <point x='708.7642' y='716.28125'/>
+    <point x='714.363' y='309.87997'/>
+    <point x='408.8119' y='309.87997'/>
+    <point x='408.8119' y='304.775'/>
+  </room>
+  <room level='level1' areaVisible='true' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Poplar' creator='Emmanuel Puybaret' catalogId='Puybaret#poplar' width='40.0' height='80.0' image='67'/>
+    <point x='7.6199994' y='156.20999'/>
+    <point x='7.6199837' y='365.76004'/>
+    <point x='7.6199846' y='396.7712'/>
+    <point x='94.73845' y='396.7712'/>
+    <point x='93.902214' y='575.31'/>
+    <point x='422.90997' y='575.31'/>
+    <point x='422.90997' y='457.19998'/>
+    <point x='422.90997' y='415.67468'/>
+    <point x='426.74515' y='415.67468'/>
+    <point x='426.74515' y='323.03473'/>
+    <point x='422.90997' y='323.03473'/>
+    <point x='422.90997' y='274.32'/>
+    <point x='422.90997' y='156.20999'/>
+  </room>
+  <room level='level1' areaVisible='true' ceilingVisible='false'>
+    <texture attribute='floorTexture' name='Poplar' creator='Emmanuel Puybaret' catalogId='Puybaret#poplar' width='40.0' height='80.0' image='67'/>
+    <point x='430.52997' y='156.20999'/>
+    <point x='430.52997' y='274.32'/>
+    <point x='430.52997' y='323.03467'/>
+    <point x='426.69516' y='323.03467'/>
+    <point x='426.69516' y='415.67474'/>
+    <point x='430.52997' y='415.67474'/>
+    <point x='430.52997' y='457.19998'/>
+    <point x='430.52997' y='575.31'/>
+    <point x='716.27997' y='575.31'/>
+    <point x='716.27997' y='365.76004'/>
+    <point x='716.27997' y='156.20999'/>
+  </room>
+</home>
