@@ -1,7 +1,7 @@
 <!--
-   viewHome.html  version 1.4  
+   SweetHome3DJSViewer.html  version 6.0  
    
-   Sweet Home 3D, Copyright (c) 2016-2018 Emmanuel PUYBARET / eTeks <info@eteks.com>
+   Sweet Home 3D, Copyright (c) 2018 Emmanuel PUYBARET / eTeks <info@eteks.com>
    
    This program is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>View home with Sweet Home 3D HTML5 Viewer</title>
+<title>View home with Sweet Home 3D JS Viewer</title>
 
 <!--  Copy the following scripts in your page header -->
 <script type="text/javascript" src="lib/big.min.js"></script>
@@ -46,7 +46,7 @@
 <div>
   <!-- Copy the following canvas and components in your page, changing their size / texts and other values if needed  -->
   <canvas id="viewerCanvas" class="viewerComponent" width="800" height="600"
-          style="background-color: #CCCCCC; border: 1px solid gray; outline:none" tabIndex="1"></canvas>
+          style="background-color: #CCCCCC; border: 1px solid gray; outline:none; touch-action: none" tabIndex="1"></canvas>
   <div id="viewerProgressDiv" style="width: 400px; position: relative; top: -350px; left: 200px; background-color: rgba(128, 128, 128, 0.7); padding: 20px; border-radius: 25px">
     <progress id="viewerProgress"  class="viewerComponent" value="0" max="200" style="width: 400px"></progress>
     <label id="viewerProgressLabel" class="viewerComponent" style="margin-top: 2px; display: block; margin-left: 10px"></label>
@@ -60,12 +60,16 @@
   </div>
 </div>
 <div style="position: absolute; bottom: 5px; text-align: center; width: 95%; z-index: -1">
-  <a href="http://www.sweethome3d.com">Sweet Home 3D</a> HTML5 Viewer / Version 1.4 - Distributed under GNU General Public License
+  <a href="http://www.sweethome3d.com">Sweet Home 3D</a> JS Viewer / Version 6.0 - Distributed under GNU General Public License
 </div>
 
-<!-- Copy the following script to view your home in the previous canvas -->
+<!-- Copy the following script to view your home in the previous canvas, updating the default.sh3d URL and parameters if necessary -->
 <script type="text/javascript">
+<<<<<<< HEAD:chateau/SweetHome3DJSViewer.html
+  var homeUrl = "chateau.sh3d";
+=======
   var homeUrl = "chateau_alt.zip";
+>>>>>>> 67be8b57f75aba921ce189de25616d714b8cad8a:chateau/viewHome.html
   var onerror = function(err) {
       if (err == "No WebGL") {
         alert("Sorry, your browser doesn't support WebGL.");
