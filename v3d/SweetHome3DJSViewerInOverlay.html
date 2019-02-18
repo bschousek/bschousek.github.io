@@ -49,7 +49,7 @@
        http://sweethome3d.cvs.sf.net/viewvc/sweethome3d/SweetHome3D/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editing3DView.html 
        You may also switch between aerial view and virtual visit with the space bar -->
   <!-- For browser compatibility, see http://caniuse.com/webgl -->
-  <button onclick='viewHomeInOverlay("default.sh3d",               
+  <button onclick='viewHomeInOverlay("longchateau.sh3d",               
               {roundsPerMinute:    1,                              /* Rotation speed of the animation launched once home is loaded in rounds per minute, no animation if missing */ 
                widthByHeightRatio: 4/3,                            /* Size ratio of the displayed canvas */
                navigationPanel: "none",                            /* Displayed navigation arrows, "none" or "default" for default one or an HTML string containing elements with data-simulated-key 
@@ -66,6 +66,40 @@
                readingModelText: "Model",                          /* Comment displayed while reading models */
                noWebGLSupportError: "No WebGL support"             /* Error message displayed if the browser do not support WebGL */
               })'>View home</button>
+<button onclick='viewHomeInOverlay("furniture_longchateau.sh3d",               
+              {roundsPerMinute:    1,                              /* Rotation speed of the animation launched once home is loaded in rounds per minute, no animation if missing */ 
+               widthByHeightRatio: 4/3,                            /* Size ratio of the displayed canvas */
+               navigationPanel: "none",                            /* Displayed navigation arrows, "none" or "default" for default one or an HTML string containing elements with data-simulated-key 
+                                                                      attribute set "UP", "DOWN", "LEFT", "RIGHT"... to replace the default navigation panel, "none" if missing */ 
+               aerialViewButtonText: "Aerial view",                /* Text displayed for aerial view radio button, no radio buttons if missing */ 
+               virtualVisitButtonText: "Virtual visit",            /* Text displayed for virtual visit radio button, no radio buttons if missing */
+            /* level: "Roof", */                                   /* Uncomment to select the displayed level, default level if missing */
+            /* selectableLevels: ["Ground floor", "Roof"], */      /* Uncomment to choose the list of displayed levels, no select component if empty array */
+            /* camera: "Exterior view", */                         /* Uncomment to select a camera, default camera if missing */
+            /* selectableCameras: ["Exterior view", "Kitchen"], */ /* Uncomment to choose the list of displayed cameras, no camera if missing */
+               activateCameraSwitchKey: true,                      /* Switch between top view / virtual visit with space bar if not false or missing */
+               viewerControlsAdditionalHTML: "",                   /* Additional HTML text appended to controls displayed below the canvas 3D, by default empty */
+               readingHomeText: "Reading",                         /* Comment displayed while reading home */
+               readingModelText: "Model",                          /* Comment displayed while reading models */
+               noWebGLSupportError: "No WebGL support"             /* Error message displayed if the browser do not support WebGL */
+              })'>View home with furniture</button>
+<button onclick='viewHomeInOverlay("roof_longchateau.sh3d",               
+              {roundsPerMinute:    1,                              /* Rotation speed of the animation launched once home is loaded in rounds per minute, no animation if missing */ 
+               widthByHeightRatio: 4/3,                            /* Size ratio of the displayed canvas */
+               navigationPanel: "none",                            /* Displayed navigation arrows, "none" or "default" for default one or an HTML string containing elements with data-simulated-key 
+                                                                      attribute set "UP", "DOWN", "LEFT", "RIGHT"... to replace the default navigation panel, "none" if missing */ 
+               aerialViewButtonText: "Aerial view",                /* Text displayed for aerial view radio button, no radio buttons if missing */ 
+               virtualVisitButtonText: "Virtual visit",            /* Text displayed for virtual visit radio button, no radio buttons if missing */
+            /* level: "Roof", */                                   /* Uncomment to select the displayed level, default level if missing */
+            /* selectableLevels: ["Ground floor", "Roof"], */      /* Uncomment to choose the list of displayed levels, no select component if empty array */
+            /* camera: "Exterior view", */                         /* Uncomment to select a camera, default camera if missing */
+            /* selectableCameras: ["Exterior view", "Kitchen"], */ /* Uncomment to choose the list of displayed cameras, no camera if missing */
+               activateCameraSwitchKey: true,                      /* Switch between top view / virtual visit with space bar if not false or missing */
+               viewerControlsAdditionalHTML: "",                   /* Additional HTML text appended to controls displayed below the canvas 3D, by default empty */
+               readingHomeText: "Reading",                         /* Comment displayed while reading home */
+               readingModelText: "Model",                          /* Comment displayed while reading models */
+               noWebGLSupportError: "No WebGL support"             /* Error message displayed if the browser do not support WebGL */
+              })'>View home with roof</button>
 </div>
 
 <div style="position: absolute; bottom: 5px; text-align: center; width: 95%; z-index: -1">
